@@ -1,0 +1,27 @@
+{
+  "name": "express_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "standard && node index.js",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richirrim/express_basic.git"
+  },
+  "author": "Ricardo Ortega (@richirrim)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richirrim/express_basic/issues"
+  },
+  "homepage": "https://github.com/richirrim/express_basic#readme",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
