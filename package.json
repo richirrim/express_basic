@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "standard && node index.js",
+    "start": "standard && node app.js",
+    "main": "nodemon app.js",
     "lint": "standard",
     "lint-fix": "standard --fix"
   },
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/richirrim/express_basic#readme",
   "devDependencies": {
+    "nodemon": "^2.0.15",
     "standard": "^17.0.0"
   },
   "dependencies": {
