@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "standard && node app.js",
-    "main": "nodemon app.js",
+    "main": "standard && nodemon app.js",
     "lint": "standard",
     "lint-fix": "standard --fix"
   },
